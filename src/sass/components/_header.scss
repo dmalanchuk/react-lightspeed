@@ -36,6 +36,8 @@
         font-size: 18px;
 
         margin-left: 14px;
+
+        font-family: $title-font;
     }
 }
 
@@ -46,3 +48,7 @@
         margin-left: 14px;
     }
 }
+
+.button_sing-up {
+    @extend %button-join;
+}   
