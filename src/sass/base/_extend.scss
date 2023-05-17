@@ -8,3 +8,19 @@
 
     background:  transparent;
 }
+
+%main-button {
+    width: 180px;
+    height: 40px;
+
+    background: #2087db;
+
+    border: none;
+
+    color: white;
+
+    box-shadow:
+       inset 0 -3em 3em #2087db,
+             0 0  0 2px #2087db,
+             0.3em 0.3em 1em #2087db;
+}
