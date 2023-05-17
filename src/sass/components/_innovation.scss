@@ -1,0 +1,30 @@
+.innovation-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 121px;
+
+    h1  {
+        font-size: 32px;
+    }
+
+    img {
+        width: 600px;
+        height: 337px;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+.line_and_title1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    opacity: 50%;
+
+    width: 165px;
+}
