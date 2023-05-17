@@ -1,5 +1,8 @@
 import React from 'react'
 import Slite from '../../ico/satellite.png'
+import Dashboard from '../../ico/dashboard.png'
+import Globe from '../../ico/globe.png'
+import Like from '../../ico/thumb-up.png'
 
 const Header = () => {
   return (
@@ -39,6 +42,29 @@ const Header = () => {
             even for the most  remote  and  secluded location
           </p>
           <button className="button-get">Get Started</button>
+        </div>
+
+        {/* header-blocks */}
+
+        <div className="header-blocks">
+          <div className="amazing-speed">
+            <img src={Dashboard} alt="" />
+            <h2>AMAZING SPEED</h2>
+            <h1>300<span>/mbps</span></h1>
+            <p>Download speed</p>
+          </div>
+          <div className="approved">
+            <img src={Like} alt="" />
+            <h2>APPROVED</h2>
+            <h1>4.9</h1>
+            <p>Customrs` rating</p>
+          </div>
+          <div className="coverage">
+            <img src={Globe} alt="" />
+            <h2>COVERAGE</h2>
+            <h1>195</h1>
+            <p>Internet in every country</p>
+          </div>
         </div>
       </div>
     </header>
