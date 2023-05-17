@@ -1,0 +1,38 @@
+.line_and_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 140px;
+
+    margin: 0;
+
+    h3 {
+        opacity: 50%;
+    }
+}
+
+.internet-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 81px;
+}
+
+
+.text-block {
+    h1 {
+        width: 350px;
+
+        margin: 0;
+    }
+
+    p {
+        width: 350px;
+        opacity: 50%;
+    }
+}
+
+.button-explore {
+    @extend %main-button;
+}
