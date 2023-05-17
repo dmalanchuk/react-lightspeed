@@ -4,7 +4,7 @@ import Slite from '../../ico/satellite.png'
 const Header = () => {
   return (
     <header className='header'>
-      <div className="conatiner">
+      <div className="container">
         <div className="header-wrapper">
 
           {/* logo and name */}
@@ -33,9 +33,12 @@ const Header = () => {
         {/* content-header */}
 
         <div className="header-content">
-          <h1></h1>
-          <p></p>
-          <button className=''>Get Started</button>
+          <h1>INTERNET FROM SPACE</h1>
+          <p>LightSpeed is developing innovate soution to provide
+            low-cost hight-speed internet to everywhere in the world,
+            even for the most  remote  and  secluded location
+          </p>
+          <button className="button-get">Get Started</button>
         </div>
       </div>
     </header>
