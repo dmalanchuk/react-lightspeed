@@ -1,0 +1,28 @@
+.looking-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 40px;
+    margin-top: 121px;
+
+
+    h1 {
+        width: 300px;
+    }
+
+    p {
+        width: 400px;
+    }
+}
+
+.line_and_title2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        opacity: 50%;
+    }
+
+    width: 140px;
+}

@@ -1,13 +1,10 @@
-.innovation-wrapper {
+.security-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    margin-top: 121px;
     padding: 0 40px;
-
-    h1  {
-        font-size: 32px;
-    }
+    margin-top: 121px;
 
     img {
         width: 600px;
@@ -15,16 +12,19 @@
     }
 
     p {
-        font-size: 20px;
+        width: 450px;
     }
 }
 
-.line_and_title1 {
+.line_and_title3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    opacity: 50%;
+    h3 {
+        opacity: 50%;
+    }
 
-    width: 165px;
+    width: 140px;
 }
+
